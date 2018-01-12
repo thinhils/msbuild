@@ -54,6 +54,7 @@
   <ItemGroup>
     <None Update="TrackedDependencies\TestFiles\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <!--<Link>TestFiles\%(Filename)%(Extension)</Link>-->
     </None>
   </ItemGroup>
 
